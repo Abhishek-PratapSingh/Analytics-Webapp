@@ -10,7 +10,6 @@ function App() {
       <Home />
       <Routes>
         <Route path="/table/:startDate/:endDate" element={<Table />} />
-        {/* <Route path="/table" element={<Table />} /> */}
       </Routes>
     </div>
   );
